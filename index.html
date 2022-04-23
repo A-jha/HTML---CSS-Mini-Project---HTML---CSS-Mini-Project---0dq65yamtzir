@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/portifolio.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navCont">
+      <a href="./index.html"><div class="logo">Mini Projects</div></a>
+      <ul class="linkCont">
+        <li class="link"><a href="#projects">Projects</a></li>
+        <li class="link"><a href="#top">About</a></li>
+        <li class="link"><a href="./index.html">Home</a></li>
+      </ul>
+    </nav>
+    <section id="top">
+      <div class="profile-img">
+        <img src="../images/IMG_1385.JPG" class="img" />
+      </div>
+      <div class="intro">
+        <h1>Hi, I am Avinash Kumar Jha</h1>
+        <h2>I am a <span id="profession">Coder</span></h2>
+      </div>
+      <div class="socialLinks">
+        <a href="https://github.com/A-jha" target="blank"
+          ><div class="socialIcon github">
+            <i class="fa-brands fa-github"></i></div
+        ></a>
+        <a href="https://www.linkedin.com/in/avvinashjha/" target="blank">
+          <div class="socialIcon linkd">
+            <i class="fa-brands fa-linkedin"></i>
+          </div> </a
+        ><a href="mailto:avvinashjha@gmail.com" target="blank"
+          ><div class="socialIcon gmail">
+            <i class="fa-solid fa-at"></i>
+          </div> </a
+        ><a href="https://www.instagram.com/avvinash.jha/" target="blank"
+          ><div class="socialIcon insta">
+            <i class="fa-brands fa-instagram"></i></div
+        ></a>
+      </div>
+    </section>
+    <h3 class="heading">Skills</h3>
+    <section id="skills">
+      <div class="ft">
+        <h3>Frontend Technologies</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>ReactJs</li>
+          <li>Ejs</li>
+          <li>Bootstrap</li>
+          <li>Material Ui</li>
+        </ul>
+      </div>
+      <div class="bt">
+        <h3>Backend Technologies</h3>
+        <ul>
+          <li>Nodejs</li>
+          <li>Express</li>
+          <li>Postman</li>
+          <li>Github</li>
+          <li>Serverless</li>
+          <li>MongoDB</li>
+          <li>Postgres</li>
+          <li>Firebase</li>
+        </ul>
+      </div>
+      <div class="p">
+        <h3>Programming</h3>
+        <ul>
+          <li>C++</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>Golang</li>
+          <li>Data Structure</li>
+        </ul>
+      </div>
+    </section>
+    <h3 class="heading">Projects</h3>
+    <section class="projects" id="projects">
+      <div class="projectCards">
+        <div class="project project1">
+          <h3>Random Image Gallery</h3>
+          <img src="../images/randoImg.png" alt="" class="project-img" />
+          <details>
+            <summary>Random Image Gallery Project Overview</summary>
+            <p>
+              This Project is Made using Unsplash Random image API. Here I am
+              selecting the image based on their height and width and showing
+              then in a container.
+            </p>
+          </details>
+          <a href="./views//gallery.html"> <div class="btn">View</div></a>
+        </div>
+
+        <div class="project project1">
+          <h3>Covid-19 Tracker</h3>
+          <img src="../images/covid19.png" alt="" class="project-img" />
+          <details>
+            <summary>Covid-19 Data Tracker Overview</summary>
+            <p>
+              This Project is made with the help of the API provided by govt of
+              India on Corona Virus data.
+            </p>
+          </details>
+          <a href="./views/covidtracker.html"> <div class="btn">View</div></a>
+        </div>
+
+        <div class="project project1">
+          <h3>Job Finder App</h3>
+          <img src="../images/jobApp.png" alt="" class="project-img" />
+          <details>
+            <summary>Job Finder App made with react</summary>
+            <p>
+              This Project is Made using a free Job Api Where we can search for
+              jobs and we can read all the requirements too.
+            </p>
+          </details>
+          <a href="https://jobshop.netlify.app/" target="blank">
+            <div class="btn">View</div></a
+          >
+        </div>
+      </div>
+      <a href="./views/projects.html"><div class="btn1">View More</div></a>
+    </section>
+    <section class="footer">
+      <h3>Created By &copy; Avinash Jha on 15/04/2022</h3>
+    </section>
+    <script src="./script/portfolio.js"></script>
+  </body>
+</html>
