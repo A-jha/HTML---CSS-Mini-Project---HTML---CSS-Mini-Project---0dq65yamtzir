@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(247, 245, 171);
+  background-image: radial-gradient(red, blue);
   font-size: 1.3rem;
 }
 .header {
